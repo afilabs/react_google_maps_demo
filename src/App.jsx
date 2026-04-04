@@ -9,6 +9,7 @@ function App() {
         style={{ width: '100vw', height: '100vh' }}
         defaultCenter={{ lat: 49.2827, lng: -123.1207 }}
         defaultZoom={12}
+        mapId={import.meta.env.VITE_GOOGLE_MAPS_MAP_ID}
       >
       </Map>
     </APIProvider>
