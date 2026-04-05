@@ -1,8 +1,15 @@
-# React + Vite
+# react_google_maps_demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![react Google Maps Demo](https://storage.ghost.io/c/c6/4d/c64da7e8-63a6-4cff-acdc-2782a6ebc377/content/images/size/w1600/2026/04/Screenshot-2026-04-03-at-8.22.18---PM.png " React Google Maps Demo")
 
-Currently, two official plugins are available:
+Taken from: 
+- [Google Maps with React: Add a Google Map and style it](https://blog.afi.io/blog/google-maps-with-react-add-a-google-map-and-style-it)
+  
+How to run the app:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. cd into your project folder
+2. Open terminal and run `npm install` (this will install the required dependencies)
+3. Update the `.env` file with your Google Maps API key and Map ID
+4. Run `npm run dev`
+
+Please contact afian@afi.io if you have any questions or suggestions. Pull requests are welcome.
