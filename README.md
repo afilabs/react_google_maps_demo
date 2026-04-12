@@ -4,6 +4,7 @@
 
 Taken from: 
 - [Google Maps with React: Add a Google Map and style it](https://blog.afi.io/blog/google-maps-with-react-add-a-google-map-and-style-it)
+- [Work with Google Maps React map markers and info windows](https://blog.afi.io/blog/work-with-google-maps-react-map-markers-and-info-windows/)
   
 How to run the app:
 
