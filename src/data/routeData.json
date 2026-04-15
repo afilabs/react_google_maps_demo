@@ -1,0 +1,118 @@
+{"routes": [
+        {
+            "distanceMeters": 34055,
+            "duration": "3620s",
+            "polyline": {
+                "encodedPolyline": "akfkHjxxlVeAAAeBoEEuAJ@eNFsCFs]DiI?iGEY@kDFi@DiGe]EcO@?{PDuH?aJDuS?kTB_JBeZD_@FeGAyMCyDE]CaX?eEBu@FYJuAF]|@sCJe@tAsCbAgCNi@`@cADQb@iANy@wBsA}AkA{DcCaCgAqDeA_@EcGkBw@Io@DcA\\c@d@{@xAaAjC}@pBYh@aBxBsB`CCTsFvFsGfHuF~GiFfHeH~Jg@l@_B~AkA|@oBbAeCv@{DbAuJrC{HdCuOzEeJbD{BhA{BzAsClCiBxBwA~B{A~CwAvDaAbDSz@q@rCm@jDcBbLCRg@~EoB|YcAzMgB~ZaBzYkBzVOhCc@nHIbC[lH[jKQrGe@dKy@zM]|EiKjkBo@pHu@bHw@pFw@zDmAnEqApDeBvDc[xl@oFvKkHhNmBpE{AnE}AtFoAzF{@jF{@tG[lDSjEIlD?hCHhEXxE\\fDn@fElAjFv@fCfApCrDzHl@pAb@t@h[zo@lAxCfBlFnAxE~@zEx@nFf@bF^vFP`FD~EEvFwAth@{@dY[tFi@xFy@rGcA~FyMlp@{AfJgAtIkBtPq@bE{@rDgAnDwAhDw@xAYf@eBfCmBvB}KpJ_BtAsn@fi@_BbByAnBaBvCwAfDo@nB_@xAa@bBk@bDQxASbBWzDKzDAxE?j@Cp]DrSLbM?HVlR@nHMli@[hM?tIF|D^rJDdCEjCShCWbBi@`CkAjDaAvB{AnCuLzRq@z@Y\\kAfAcBhAyAj@eB`@qBPeId@gC^}Ab@ECKEoFhAaFnACpYAj_@Abl@?~ACjdAH|ODf@Onx@En@GxQ?tDDl@ClD@|EMpo@IfBEf@Od@yAlNy@dIAL}@~I@He@|E[bDkDr^mBdSo@~G_@nHiDEiBRyIrAa@Ds@Tu@f@{@`Ai@`Ag@vAWrAgAfMWpAoA`DUtAEfAF`AP`A~B`GVvADpAMrBBjAJp@XfAhArC`@p@h@`@`B`@PPlBrC|B`Dt@fAfAmBp@{@ZWg@}B{CaKaBqEiE{KSi@c@GUF"
+            },
+            "travelAdvisory": {
+                "speedReadingIntervals": [
+                    {
+                        "startPolylinePointIndex": 0,
+                        "endPolylinePointIndex": 84,
+                        "speed": "NORMAL"
+                    },
+                    {
+                        "startPolylinePointIndex": 84,
+                        "endPolylinePointIndex": 87,
+                        "speed": "SLOW"
+                    },
+                    {
+                        "startPolylinePointIndex": 87,
+                        "endPolylinePointIndex": 95,
+                        "speed": "TRAFFIC_JAM"
+                    },
+                    {
+                        "startPolylinePointIndex": 95,
+                        "endPolylinePointIndex": 97,
+                        "speed": "NORMAL"
+                    },
+                    {
+                        "startPolylinePointIndex": 97,
+                        "endPolylinePointIndex": 99,
+                        "speed": "TRAFFIC_JAM"
+                    },
+                    {
+                        "startPolylinePointIndex": 99,
+                        "endPolylinePointIndex": 160,
+                        "speed": "SLOW"
+                    },
+                    {
+                        "startPolylinePointIndex": 160,
+                        "endPolylinePointIndex": 164,
+                        "speed": "TRAFFIC_JAM"
+                    },
+                    {
+                        "startPolylinePointIndex": 164,
+                        "endPolylinePointIndex": 172,
+                        "speed": "SLOW"
+                    },
+                    {
+                        "startPolylinePointIndex": 172,
+                        "endPolylinePointIndex": 175,
+                        "speed": "NORMAL"
+                    },
+                    {
+                        "startPolylinePointIndex": 175,
+                        "endPolylinePointIndex": 179,
+                        "speed": "SLOW"
+                    },
+                    {
+                        "startPolylinePointIndex": 179,
+                        "endPolylinePointIndex": 180,
+                        "speed": "NORMAL"
+                    },
+                    {
+                        "startPolylinePointIndex": 180,
+                        "endPolylinePointIndex": 184,
+                        "speed": "SLOW"
+                    },
+                    {
+                        "startPolylinePointIndex": 184,
+                        "endPolylinePointIndex": 201,
+                        "speed": "NORMAL"
+                    },
+                    {
+                        "startPolylinePointIndex": 201,
+                        "endPolylinePointIndex": 211,
+                        "speed": "SLOW"
+                    },
+                    {
+                        "startPolylinePointIndex": 211,
+                        "endPolylinePointIndex": 216,
+                        "speed": "NORMAL"
+                    },
+                    {
+                        "startPolylinePointIndex": 216,
+                        "endPolylinePointIndex": 218,
+                        "speed": "SLOW"
+                    },
+                    {
+                        "startPolylinePointIndex": 218,
+                        "endPolylinePointIndex": 235,
+                        "speed": "NORMAL"
+                    },
+                    {
+                        "startPolylinePointIndex": 235,
+                        "endPolylinePointIndex": 238,
+                        "speed": "SLOW"
+                    },
+                    {
+                        "startPolylinePointIndex": 238,
+                        "endPolylinePointIndex": 240,
+                        "speed": "NORMAL"
+                    },
+                    {
+                        "startPolylinePointIndex": 240,
+                        "endPolylinePointIndex": 241,
+                        "speed": "SLOW"
+                    },
+                    {
+                        "startPolylinePointIndex": 241,
+                        "endPolylinePointIndex": 285,
+                        "speed": "NORMAL"
+                    }
+                ]
+            }
+        }
+    ]}
