@@ -1,0 +1,54 @@
+.SearchBox {
+   position: fixed;
+   z-index: 1;
+   top: 24px;
+   left: 16px;
+   background: #fff;
+   padding: 16px;
+   border-radius: 16px;
+   min-width: 336px;
+
+   .label {
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 16px;
+      margin-bottom: 4px;
+      display: block;
+   }
+
+   .input-group {
+      display: flex;
+      gap: 8px;
+      justify-content: space-between;
+      box-sizing: border-box;
+
+      .PlaceAutocompleteInput {
+         flex: 1;
+
+         input {
+            height: 24px;
+            border: none;
+            outline: none;
+            padding: 12px;
+            width: 93%;
+            color: #212121;
+            background: #f4f4f4;
+            border-radius: 8px;
+            margin-top: 10px;
+
+            &:focus {
+               font-size: 14px;
+               font-weight: 400;
+               outline: 1px solid #ccc;
+            }
+         }
+      }
+
+      .Icon {
+         height: 44px;
+         width: 44px;
+         border-radius: 8px;
+         background-color: #1a73e8;
+      }
+   }
+}
