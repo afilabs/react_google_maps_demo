@@ -3,3 +3,7 @@ button[aria-label="Close"] {
     outline: none !important;
     box-shadow: none !important;
 }
+
+body {
+  background-color: #dff9fb;
+}

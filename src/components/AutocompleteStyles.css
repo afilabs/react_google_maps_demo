@@ -1,0 +1,14 @@
+.autocomplete-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.autocomplete-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #9ca3af;
+  z-index: 1;
+}
