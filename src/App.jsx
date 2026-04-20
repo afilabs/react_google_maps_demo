@@ -1,17 +1,37 @@
-import './App.css';
+import { useRef, useEffect } from 'react'
 
+import {APIProvider} from '@vis.gl/react-google-maps';
+import {Map} from '@vis.gl/react-google-maps';
 
 function App() {
 
+  const mapRef = useRef(null)
+
+  useEffect(() => {
+    if (!mapRef.current) return
+    customElements.whenDefined('gmp-map').then(() => {
+      mapRef.current.innerMap.setOptions({
+        mapTypeControl: false,
+      })
+    })
+  }, [])
+
   return (
-    <div>
+    <APIProvider apiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY} libraries={['places']} version="beta">
 
-      <center>
-        <p style={{position: 'absolute', top: '30%', left: '40%', fontSize: '48px'}}>Hello World</p>
-      </center>
+      <gmp-map
+        ref={mapRef}
+        center="49.2827,-123.1207"
+        zoom="13"
+        map-id={import.meta.env.VITE_GOOGLE_MAPS_MAP_ID}
+        style={{ display: 'block', width: '100vw', height: '100vh' }}
+      >
 
-    </div>
-    
+        <div slot="control-inline-start-block-start" style={{ margin: '10px' }}>
+          <gmp-place-autocomplete placeholder="Search for a place..."></gmp-place-autocomplete>
+        </div>
+      </gmp-map>
+    </APIProvider>
   )
 }
 
