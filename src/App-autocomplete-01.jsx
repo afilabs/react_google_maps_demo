@@ -35,7 +35,6 @@ function App() {
 
     setCoords({lat, lng});
     
-    console.log(lat, lng);
   };
 
   return (

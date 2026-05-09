@@ -10,14 +10,6 @@ import './App.css';
 function App() {
   const [autocompletePlace, setAutocompletePlace] = useState(null);
 
-  // useEffect(() => {
-  //     if (autocompletePlace) {
-
-  //       console.log(autocompletePlace.geometry.location.lat());
-      
-  //     }
-  //  }, [autocompletePlace]);
-
   return (
     <div>
       <APIProvider apiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY}>
